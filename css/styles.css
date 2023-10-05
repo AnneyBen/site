@@ -1,0 +1,71 @@
+/* Apply a background color and center the content */
+body {
+    background-color: #f5f5f5;
+    text-align: center;
+    font-family: Arial, sans-serif;
+}
+
+/* Style the main container */
+.main {
+    margin: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the photo */
+.photo img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Style the 'About' section */
+.about {
+    font-size: 1.2rem;
+    margin-top: 10px;
+}
+
+/* Style the election campaign section */
+.election_campaign {
+    margin-top: 20px;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the election campaign list */
+.list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.list li {
+    margin-bottom: 10px;
+}
+
+/* Style the 'Propaganda' section */
+.propag {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Style the 'About Me' section */
+.about_else {
+    margin-top: 20px;
+}
+
+/* Media query for responsiveness on small screens */
+@media screen and (max-width: 600px) {
+
+    /* Adjust styles for smaller screens here */
+    .main,
+    .election_campaign {
+        padding: 10px;
+        font-size: 0.9rem;
+    }
+
+    /* You can make further adjustments as needed */
+}
